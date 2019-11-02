@@ -1,0 +1,27 @@
+{
+    "name": "danteleo/ali-oss-storage",
+    "description": "aliyun oss filesystem storage for laravel 5+",
+    "keywords": ["aliyun", "oss", "laravel", "filesystems", "storage"],
+    "homepage": "https://github.com/DGdisigner/Aliyun-oss-storage",
+    "authors": [
+        {
+            "name": "danteleo",
+            "email": "luckydanteleo@gmail.com"
+        }
+    ],
+    "require": {
+        "aliyuncs/oss-sdk-php": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jacobcyl\\AliOSS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jacobcyl\\AliOSS\\AliOssServiceProvider"
+            ]
+        }
+    }
+}
