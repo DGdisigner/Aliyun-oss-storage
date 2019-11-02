@@ -3,6 +3,7 @@
     "description": "aliyun oss filesystem storage for laravel 5+",
     "keywords": ["aliyun", "oss", "laravel", "filesystems", "storage"],
     "homepage": "https://github.com/DGdisigner/Aliyun-oss-storage",
+    "license": "MIT",
     "authors": [
         {
             "name": "danteleo",
